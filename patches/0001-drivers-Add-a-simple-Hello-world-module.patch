@@ -1,0 +1,65 @@
+From 42d8fcd817db90f26e18ce44a52447be901219c6 Mon Sep 17 00:00:00 2001
+From: danascape <danascape@gmail.com>
+Date: Fri, 17 Feb 2023 04:08:55 +0530
+Subject: [PATCH] drivers: Add a simple Hello world module
+
+* This was performed as a task for  Linux kernel Bug Fixing 2023
+  (Spring).
+* This is a simple module to print the string "Hello World" when the
+  module is loaded and "GoodBye World" on unload.
+
+Signed-off-by: danascape <danascape@gmail.com>
+---
+ Makefile     |  7 +++++++
+ helloworld.c | 25 +++++++++++++++++++++++++
+ 2 files changed, 32 insertions(+)
+ create mode 100644 Makefile
+ create mode 100644 helloworld.c
+
+diff --git a/Makefile b/Makefile
+new file mode 100644
+index 0000000..3e9d04f
+--- /dev/null
++++ b/Makefile
+@@ -0,0 +1,7 @@
++obj-m += helloworld.o
++
++all:
++	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
++
++clean:
++	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+diff --git a/helloworld.c b/helloworld.c
+new file mode 100644
+index 0000000..f926ee9
+--- /dev/null
++++ b/helloworld.c
+@@ -0,0 +1,25 @@
++// SPDX-License-Identifier: GPL-2.0
++#include<linux/module.h>
++#include<linux/init.h>
++
++/*
++ * A simple hello world module
++ */
++
++static int __init hello_init(void)
++{
++	pr_info("Hello World\n");
++	return 0;
++}
++
++static void __exit hello_exit(void)
++{
++	pr_info("GoodBye World\n");
++}
++
++module_init(hello_init);
++module_exit(hello_exit);
++
++MODULE_LICENSE("GPL");
++MODULE_AUTHOR("Saalim Quadri <danascape@gmail.com>");
++MODULE_DESCRIPTION("Simple Hello World Module");
+-- 
+2.39.1
+
