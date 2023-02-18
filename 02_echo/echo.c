@@ -14,14 +14,14 @@ MODULE_PARM_DESC(string, "A character string");
 
 static int __init echo_init(void)
 {
-	pr_info("echo: Initialise... \n");
+	pr_info("echo: Initialise...\n");
 	pr_info("The provided string: %s\n", string);
 	return 0;
 }
 
 static void __exit echo_exit(void)
 {
-	pr_info("echo: Exit... \n");
+	pr_info("echo: Exit...\n");
 }
 
 module_init(echo_init);
