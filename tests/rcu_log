@@ -1,0 +1,309 @@
+./tools/testing/selftests/rcutorture/bin/kvm.sh --duration 45s
+----Start batch 1: Sun Feb 19 04:09:29 PM IST 2023
+TREE03 16: Starting build. Sun Feb 19 04:09:29 PM IST 2023
+TREE03 16: Waiting for build to complete. Sun Feb 19 04:09:29 PM IST 2023
+TREE03 16: Build complete. Sun Feb 19 04:12:20 PM IST 2023
+---- TREE03 16: Kernel present. Sun Feb 19 04:12:20 PM IST 2023
+---- Starting kernels. Sun Feb 19 04:12:20 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 04:13:16 PM IST 2023
+---- TREE03 16: Build/run results:
+ --- Sun Feb 19 04:09:29 PM IST 2023: Starting build, PID 1509431
+ --- Sun Feb 19 04:12:21 PM IST 2023: Starting kernel
+CPU count limited from 16 to 12
+ --- Sun Feb 19 04:12:21 PM IST 2023: Starting kernel, PID 1582677
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 1582696 Sun Feb 19 04:12:31 PM IST 2023
+Grace period for qemu job at pid 1582696 Sun Feb 19 04:13:06 PM IST 2023
+----Start batch 2: Sun Feb 19 04:13:16 PM IST 2023
+TREE07 16: Starting build. Sun Feb 19 04:13:16 PM IST 2023
+TREE07 16: Waiting for build to complete. Sun Feb 19 04:13:16 PM IST 2023
+TREE07 16: Build complete. Sun Feb 19 04:16:06 PM IST 2023
+---- TREE07 16: Kernel present. Sun Feb 19 04:16:06 PM IST 2023
+---- Starting kernels. Sun Feb 19 04:16:06 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 04:17:01 PM IST 2023
+---- TREE07 16: Build/run results:
+ --- Sun Feb 19 04:13:16 PM IST 2023: Starting build, PID 1662027
+ --- Sun Feb 19 04:16:06 PM IST 2023: Starting kernel
+CPU count limited from 16 to 12
+CPU-hotplug kernel, adding rcutorture onoff.
+ --- Sun Feb 19 04:16:06 PM IST 2023: Starting kernel, PID 1731609
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 1731625 Sun Feb 19 04:16:16 PM IST 2023
+Grace period for qemu job at pid 1731625 Sun Feb 19 04:16:51 PM IST 2023
+----Start batch 3: Sun Feb 19 04:17:01 PM IST 2023
+SRCU-P 8: Starting build. Sun Feb 19 04:17:01 PM IST 2023
+SRCU-P 8: Waiting for build to complete. Sun Feb 19 04:17:01 PM IST 2023
+SRCU-P 8: Build complete. Sun Feb 19 04:19:58 PM IST 2023
+---- SRCU-P 8: Kernel present. Sun Feb 19 04:19:58 PM IST 2023
+---- Starting kernels. Sun Feb 19 04:19:58 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 04:20:53 PM IST 2023
+---- SRCU-P 8: Build/run results:
+ --- Sun Feb 19 04:17:01 PM IST 2023: Starting build, PID 1818850
+ --- Sun Feb 19 04:19:58 PM IST 2023: Starting kernel
+CPU-hotplug kernel, adding rcutorture onoff.
+ --- Sun Feb 19 04:19:58 PM IST 2023: Starting kernel, PID 1889372
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 1889391 Sun Feb 19 04:20:08 PM IST 2023
+Grace period for qemu job at pid 1889391 Sun Feb 19 04:20:43 PM IST 2023
+----Start batch 4: Sun Feb 19 04:20:53 PM IST 2023
+TREE01 8: Starting build. Sun Feb 19 04:20:53 PM IST 2023
+TREE01 8: Waiting for build to complete. Sun Feb 19 04:20:53 PM IST 2023
+TREE01 8: Build complete. Sun Feb 19 04:23:45 PM IST 2023
+---- TREE01 8: Kernel present. Sun Feb 19 04:23:45 PM IST 2023
+---- Starting kernels. Sun Feb 19 04:23:45 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 04:24:40 PM IST 2023
+---- TREE01 8: Build/run results:
+ --- Sun Feb 19 04:20:53 PM IST 2023: Starting build, PID 2002461
+ --- Sun Feb 19 04:23:45 PM IST 2023: Starting kernel
+CPU-hotplug kernel, adding rcutorture onoff.
+ --- Sun Feb 19 04:23:45 PM IST 2023: Starting kernel, PID 2072368
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 2072388 Sun Feb 19 04:23:55 PM IST 2023
+Grace period for qemu job at pid 2072388 Sun Feb 19 04:24:30 PM IST 2023
+----Start batch 5: Sun Feb 19 04:24:40 PM IST 2023
+TREE02 8: Starting build. Sun Feb 19 04:24:40 PM IST 2023
+TREE02 8: Waiting for build to complete. Sun Feb 19 04:24:40 PM IST 2023
+TREE02 8: Build complete. Sun Feb 19 04:27:34 PM IST 2023
+---- TREE02 8: Kernel present. Sun Feb 19 04:27:34 PM IST 2023
+---- Starting kernels. Sun Feb 19 04:27:34 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 04:28:30 PM IST 2023
+---- TREE02 8: Build/run results:
+ --- Sun Feb 19 04:24:40 PM IST 2023: Starting build, PID 2186558
+ --- Sun Feb 19 04:27:35 PM IST 2023: Starting kernel
+CPU-hotplug kernel, adding rcutorture onoff.
+ --- Sun Feb 19 04:27:35 PM IST 2023: Starting kernel, PID 2257864
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 2257884 Sun Feb 19 04:27:45 PM IST 2023
+Grace period for qemu job at pid 2257884 Sun Feb 19 04:28:20 PM IST 2023
+----Start batch 6: Sun Feb 19 04:28:30 PM IST 2023
+TREE04 8: Starting build. Sun Feb 19 04:28:30 PM IST 2023
+TREE04 8: Waiting for build to complete. Sun Feb 19 04:28:30 PM IST 2023
+TREE04 8: Build complete. Sun Feb 19 04:31:27 PM IST 2023
+---- TREE04 8: Kernel present. Sun Feb 19 04:31:27 PM IST 2023
+---- Starting kernels. Sun Feb 19 04:31:27 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 04:32:22 PM IST 2023
+---- TREE04 8: Build/run results:
+ --- Sun Feb 19 04:28:30 PM IST 2023: Starting build, PID 2369837
+ --- Sun Feb 19 04:31:27 PM IST 2023: Starting kernel
+CPU-hotplug kernel, adding rcutorture onoff.
+ --- Sun Feb 19 04:31:27 PM IST 2023: Starting kernel, PID 2439524
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 2439545 Sun Feb 19 04:31:37 PM IST 2023
+Grace period for qemu job at pid 2439545 Sun Feb 19 04:32:12 PM IST 2023
+----Start batch 7: Sun Feb 19 04:32:22 PM IST 2023
+TREE05 8: Starting build. Sun Feb 19 04:32:22 PM IST 2023
+TREE05 8: Waiting for build to complete. Sun Feb 19 04:32:22 PM IST 2023
+TREE05 8: Build complete. Sun Feb 19 04:35:24 PM IST 2023
+---- TREE05 8: Kernel present. Sun Feb 19 04:35:24 PM IST 2023
+---- Starting kernels. Sun Feb 19 04:35:24 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 04:36:20 PM IST 2023
+---- TREE05 8: Build/run results:
+ --- Sun Feb 19 04:32:22 PM IST 2023: Starting build, PID 2554021
+ --- Sun Feb 19 04:35:25 PM IST 2023: Starting kernel
+CPU-hotplug kernel, adding rcutorture onoff.
+ --- Sun Feb 19 04:35:25 PM IST 2023: Starting kernel, PID 2622987
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 2623006 Sun Feb 19 04:35:35 PM IST 2023
+Grace period for qemu job at pid 2623006 Sun Feb 19 04:36:10 PM IST 2023
+----Start batch 8: Sun Feb 19 04:36:20 PM IST 2023
+TRACE01 5: Starting build. Sun Feb 19 04:36:20 PM IST 2023
+TRACE01 5: Waiting for build to complete. Sun Feb 19 04:36:20 PM IST 2023
+TRACE01 5: Build complete. Sun Feb 19 04:39:13 PM IST 2023
+---- TRACE01 5: Kernel present. Sun Feb 19 04:39:13 PM IST 2023
+---- Starting kernels. Sun Feb 19 04:39:13 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 04:40:08 PM IST 2023
+---- TRACE01 5: Build/run results:
+ --- Sun Feb 19 04:36:20 PM IST 2023: Starting build, PID 2730980
+ --- Sun Feb 19 04:39:13 PM IST 2023: Starting kernel
+CPU-hotplug kernel, adding rcutorture onoff.
+ --- Sun Feb 19 04:39:13 PM IST 2023: Starting kernel, PID 2799994
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 2800013 Sun Feb 19 04:39:23 PM IST 2023
+Grace period for qemu job at pid 2800013 Sun Feb 19 04:39:58 PM IST 2023
+----Start batch 9: Sun Feb 19 04:40:08 PM IST 2023
+SRCU-N 4: Starting build. Sun Feb 19 04:40:08 PM IST 2023
+SRCU-N 4: Waiting for build to complete. Sun Feb 19 04:40:08 PM IST 2023
+SRCU-N 4: Build complete. Sun Feb 19 04:42:52 PM IST 2023
+---- SRCU-N 4: Kernel present. Sun Feb 19 04:42:52 PM IST 2023
+---- Starting kernels. Sun Feb 19 04:42:52 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 04:43:47 PM IST 2023
+---- SRCU-N 4: Build/run results:
+ --- Sun Feb 19 04:40:08 PM IST 2023: Starting build, PID 2913397
+ --- Sun Feb 19 04:42:52 PM IST 2023: Starting kernel
+CPU-hotplug kernel, adding rcutorture onoff.
+ --- Sun Feb 19 04:42:52 PM IST 2023: Starting kernel, PID 2981339
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 2981359 Sun Feb 19 04:43:02 PM IST 2023
+Grace period for qemu job at pid 2981359 Sun Feb 19 04:43:37 PM IST 2023
+----Start batch 10: Sun Feb 19 04:43:47 PM IST 2023
+TASKS01 4: Starting build. Sun Feb 19 04:43:47 PM IST 2023
+TASKS01 4: Waiting for build to complete. Sun Feb 19 04:43:47 PM IST 2023
+TASKS01 4: Build complete. Sun Feb 19 04:46:44 PM IST 2023
+---- TASKS01 4: Kernel present. Sun Feb 19 04:46:44 PM IST 2023
+---- Starting kernels. Sun Feb 19 04:46:44 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 04:47:39 PM IST 2023
+---- TASKS01 4: Build/run results:
+ --- Sun Feb 19 04:43:47 PM IST 2023: Starting build, PID 3092997
+ --- Sun Feb 19 04:46:44 PM IST 2023: Starting kernel
+CPU-hotplug kernel, adding rcutorture onoff.
+ --- Sun Feb 19 04:46:44 PM IST 2023: Starting kernel, PID 3162249
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 3162269 Sun Feb 19 04:46:54 PM IST 2023
+Grace period for qemu job at pid 3162269 Sun Feb 19 04:47:29 PM IST 2023
+----Start batch 11: Sun Feb 19 04:47:39 PM IST 2023
+TASKS03 4: Starting build. Sun Feb 19 04:47:39 PM IST 2023
+TASKS03 4: Waiting for build to complete. Sun Feb 19 04:47:39 PM IST 2023
+TASKS03 4: Build complete. Sun Feb 19 04:50:38 PM IST 2023
+---- TASKS03 4: Kernel present. Sun Feb 19 04:50:38 PM IST 2023
+---- Starting kernels. Sun Feb 19 04:50:38 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 04:51:34 PM IST 2023
+---- TASKS03 4: Build/run results:
+ --- Sun Feb 19 04:47:39 PM IST 2023: Starting build, PID 3274786
+ --- Sun Feb 19 04:50:38 PM IST 2023: Starting kernel
+CPU-hotplug kernel, adding rcutorture onoff.
+ --- Sun Feb 19 04:50:38 PM IST 2023: Starting kernel, PID 3344732
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 3344751 Sun Feb 19 04:50:48 PM IST 2023
+Grace period for qemu job at pid 3344751 Sun Feb 19 04:51:23 PM IST 2023
+----Start batch 12: Sun Feb 19 04:51:34 PM IST 2023
+TRACE02 4: Starting build. Sun Feb 19 04:51:34 PM IST 2023
+TRACE02 4: Waiting for build to complete. Sun Feb 19 04:51:34 PM IST 2023
+TRACE02 4: Build complete. Sun Feb 19 04:54:54 PM IST 2023
+---- TRACE02 4: Kernel present. Sun Feb 19 04:54:54 PM IST 2023
+---- Starting kernels. Sun Feb 19 04:54:54 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 04:55:50 PM IST 2023
+---- TRACE02 4: Build/run results:
+ --- Sun Feb 19 04:51:34 PM IST 2023: Starting build, PID 3457085
+ --- Sun Feb 19 04:54:55 PM IST 2023: Starting kernel
+CPU-hotplug kernel, adding rcutorture onoff.
+ --- Sun Feb 19 04:54:55 PM IST 2023: Starting kernel, PID 3527265
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 3527284 Sun Feb 19 04:55:05 PM IST 2023
+Grace period for qemu job at pid 3527284 Sun Feb 19 04:55:40 PM IST 2023
+----Start batch 13: Sun Feb 19 04:55:50 PM IST 2023
+RUDE01 3: Starting build. Sun Feb 19 04:55:50 PM IST 2023
+RUDE01 3: Waiting for build to complete. Sun Feb 19 04:55:50 PM IST 2023
+RUDE01 3: Build complete. Sun Feb 19 04:58:53 PM IST 2023
+---- RUDE01 3: Kernel present. Sun Feb 19 04:58:53 PM IST 2023
+---- Starting kernels. Sun Feb 19 04:58:53 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 04:59:48 PM IST 2023
+---- RUDE01 3: Build/run results:
+ --- Sun Feb 19 04:55:50 PM IST 2023: Starting build, PID 3634881
+ --- Sun Feb 19 04:58:53 PM IST 2023: Starting kernel
+CPU-hotplug kernel, adding rcutorture onoff.
+ --- Sun Feb 19 04:58:53 PM IST 2023: Starting kernel, PID 3704496
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 3704514 Sun Feb 19 04:59:03 PM IST 2023
+Grace period for qemu job at pid 3704514 Sun Feb 19 04:59:38 PM IST 2023
+----Start batch 14: Sun Feb 19 04:59:48 PM IST 2023
+SRCU-T 1: Starting build. Sun Feb 19 04:59:48 PM IST 2023
+SRCU-T 1: Waiting for build to complete. Sun Feb 19 04:59:48 PM IST 2023
+SRCU-T 1: Build complete. Sun Feb 19 05:02:53 PM IST 2023
+---- SRCU-T 1: Kernel present. Sun Feb 19 05:02:53 PM IST 2023
+---- Starting kernels. Sun Feb 19 05:02:53 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 05:03:48 PM IST 2023
+---- SRCU-T 1: Build/run results:
+ --- Sun Feb 19 04:59:48 PM IST 2023: Starting build, PID 3815280
+ --- Sun Feb 19 05:02:53 PM IST 2023: Starting kernel
+ --- Sun Feb 19 05:02:53 PM IST 2023: Starting kernel, PID 3890063
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 3890082 Sun Feb 19 05:03:03 PM IST 2023
+Grace period for qemu job at pid 3890082 Sun Feb 19 05:03:38 PM IST 2023
+----Start batch 15: Sun Feb 19 05:03:48 PM IST 2023
+SRCU-U 1: Starting build. Sun Feb 19 05:03:48 PM IST 2023
+SRCU-U 1: Waiting for build to complete. Sun Feb 19 05:03:48 PM IST 2023
+SRCU-U 1: Build complete. Sun Feb 19 05:06:34 PM IST 2023
+---- SRCU-U 1: Kernel present. Sun Feb 19 05:06:34 PM IST 2023
+---- Starting kernels. Sun Feb 19 05:06:34 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 05:07:29 PM IST 2023
+---- SRCU-U 1: Build/run results:
+ --- Sun Feb 19 05:03:48 PM IST 2023: Starting build, PID 4000532
+ --- Sun Feb 19 05:06:34 PM IST 2023: Starting kernel
+ --- Sun Feb 19 05:06:34 PM IST 2023: Starting kernel, PID 4078122
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 4078141 Sun Feb 19 05:06:44 PM IST 2023
+Grace period for qemu job at pid 4078141 Sun Feb 19 05:07:19 PM IST 2023
+----Start batch 16: Sun Feb 19 05:07:29 PM IST 2023
+TASKS02 1: Starting build. Sun Feb 19 05:07:29 PM IST 2023
+TASKS02 1: Waiting for build to complete. Sun Feb 19 05:07:29 PM IST 2023
+TASKS02 1: Build complete. Sun Feb 19 05:10:16 PM IST 2023
+---- TASKS02 1: Kernel present. Sun Feb 19 05:10:16 PM IST 2023
+---- Starting kernels. Sun Feb 19 05:10:16 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 05:11:12 PM IST 2023
+---- TASKS02 1: Build/run results:
+ --- Sun Feb 19 05:07:29 PM IST 2023: Starting build, PID 4187916
+ --- Sun Feb 19 05:10:17 PM IST 2023: Starting kernel
+ --- Sun Feb 19 05:10:17 PM IST 2023: Starting kernel, PID 71234
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 71254 Sun Feb 19 05:10:27 PM IST 2023
+Grace period for qemu job at pid 71254 Sun Feb 19 05:11:02 PM IST 2023
+----Start batch 17: Sun Feb 19 05:11:12 PM IST 2023
+TINY01 1: Starting build. Sun Feb 19 05:11:12 PM IST 2023
+TINY01 1: Waiting for build to complete. Sun Feb 19 05:11:12 PM IST 2023
+TINY01 1: Build complete. Sun Feb 19 05:13:57 PM IST 2023
+---- TINY01 1: Kernel present. Sun Feb 19 05:13:57 PM IST 2023
+---- Starting kernels. Sun Feb 19 05:13:57 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 05:14:52 PM IST 2023
+---- TINY01 1: Build/run results:
+ --- Sun Feb 19 05:11:12 PM IST 2023: Starting build, PID 180363
+ --- Sun Feb 19 05:13:57 PM IST 2023: Starting kernel
+ --- Sun Feb 19 05:13:57 PM IST 2023: Starting kernel, PID 251415
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 251434 Sun Feb 19 05:14:07 PM IST 2023
+Grace period for qemu job at pid 251434 Sun Feb 19 05:14:42 PM IST 2023
+----Start batch 18: Sun Feb 19 05:14:52 PM IST 2023
+TINY02 1: Starting build. Sun Feb 19 05:14:52 PM IST 2023
+TINY02 1: Waiting for build to complete. Sun Feb 19 05:14:52 PM IST 2023
+TINY02 1: Build complete. Sun Feb 19 05:17:44 PM IST 2023
+---- TINY02 1: Kernel present. Sun Feb 19 05:17:44 PM IST 2023
+---- Starting kernels. Sun Feb 19 05:17:44 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 05:18:39 PM IST 2023
+---- TINY02 1: Build/run results:
+ --- Sun Feb 19 05:14:52 PM IST 2023: Starting build, PID 358233
+ --- Sun Feb 19 05:17:44 PM IST 2023: Starting kernel
+ --- Sun Feb 19 05:17:44 PM IST 2023: Starting kernel, PID 430044
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 430062 Sun Feb 19 05:17:54 PM IST 2023
+Grace period for qemu job at pid 430062 Sun Feb 19 05:18:29 PM IST 2023
+----Start batch 19: Sun Feb 19 05:18:39 PM IST 2023
+TREE09 1: Starting build. Sun Feb 19 05:18:39 PM IST 2023
+TREE09 1: Waiting for build to complete. Sun Feb 19 05:18:39 PM IST 2023
+TREE09 1: Build complete. Sun Feb 19 05:21:19 PM IST 2023
+---- TREE09 1: Kernel present. Sun Feb 19 05:21:19 PM IST 2023
+---- Starting kernels. Sun Feb 19 05:21:19 PM IST 2023
+---- All kernel runs complete. Sun Feb 19 05:22:14 PM IST 2023
+---- TREE09 1: Build/run results:
+ --- Sun Feb 19 05:18:39 PM IST 2023: Starting build, PID 541729
+ --- Sun Feb 19 05:21:19 PM IST 2023: Starting kernel
+ --- Sun Feb 19 05:21:19 PM IST 2023: Starting kernel, PID 611314
+QEMU 6.2.0 monitor - type 'help' for more information
+(qemu) Monitoring qemu job at pid 611334 Sun Feb 19 05:21:29 PM IST 2023
+Grace period for qemu job at pid 611334 Sun Feb 19 05:22:04 PM IST 2023
+
+
+ --- Sun Feb 19 05:22:14 PM IST 2023 Test summary:
+Results directory: /home/saalim/workspace/linux/tools/testing/selftests/rcutorture/res/2023.02.19-16.09.29
+./tools/testing/selftests/rcutorture/bin/kvm.sh --duration 45s
+RUDE01 ------- 163 GPs (3.62222/s) [tasks-rude: g0 f0x0 total-gps=0]
+SRCU-N ------- 1055 GPs (23.4444/s) [srcu: g11892 f0x0 total-gps=11892]
+SRCU-P ------- 719 GPs (15.9778/s) [srcud: g7952 f0x0 total-gps=7952]
+SRCU-T ------- 8453 GPs (187.844/s) [srcu: g91532 f0x0 total-gps=91532]
+SRCU-U ------- 9011 GPs (200.244/s) [srcud: g99358 f0x0 total-gps=99358]
+TASKS01 ------- 102 GPs (2.26667/s) [tasks: g0 f0x0 total-gps=0]
+TASKS02 -------  [tasks: g0 f0x0 total-gps=0]
+TASKS03 ------- 83 GPs (1.84444/s) [tasks: g0 f0x0 total-gps=0]
+TINY01 ------- 2226 GPs (49.4667/s) [rcu: g0 f0x0 total-gps=0]
+TINY02 ------- 2446 GPs (54.3556/s) [rcu: g0 f0x0 total-gps=0]
+TRACE01 ------- 85 GPs (1.88889/s) [tasks-tracing: g0 f0x0 total-gps=0]
+TRACE02 ------- 982 GPs (21.8222/s) [tasks-tracing: g0 f0x0 total-gps=0]
+TREE01 ------- 508 GPs (11.2889/s) [rcu: g4897 f0x0 total-gps=1518]
+TREE02 ------- 701 GPs (15.5778/s) [rcu: g10809 f0x0 total-gps=2995]
+TREE03 ------- 316 GPs (7.02222/s) [rcu: g13945 f0x0 total-gps=3779]
+CPU count limited from 16 to 12
+TREE04 ------- 470 GPs (10.4444/s) [rcu: g3985 f0x0 total-gps=1289]
+TREE05 ------- 1146 GPs (25.4667/s) [rcu: g9645 f0x0 total-gps=2702]
+TREE07 ------- 299 GPs (6.64444/s) [rcu: g2709 f0x0 total-gps=970]
+CPU count limited from 16 to 12
+TREE09 ------- 1990 GPs (44.2222/s) [rcu: g66601 f0x0 total-gps=16948]
+1 runs with build errors.
+ --- Done at Sun Feb 19 05:22:14 PM IST 2023 (1:12:45) exitcode 1
